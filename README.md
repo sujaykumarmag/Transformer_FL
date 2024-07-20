@@ -42,10 +42,11 @@ Our system architecture leverages federated learning to train transformer-based 
 ### Training the Model
 
 To train the model, use the following command (make sure to download the datasets and assign the path accordingly):
+
 ```bash
-python train.py --dataser [DATASET_NAME ] --model [MODEL_NAME] 
+python train.py --dataser [DATASET_NAME] --model [MODEL_NAME] 
 ```
-Replace `[MODEL_NAME]` with `bert` or `bst` and `[DATASET_PATH]` with the path to your dataset.
+Replace `[MODEL_NAME]` with `bert` or `bst` and `[DATASET_PATH]` with the name of the dataset.
 
 
 ## File Structure
