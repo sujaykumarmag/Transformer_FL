@@ -46,7 +46,7 @@ To train the model, use the following command (make sure to download the dataset
 ```bash
 python train.py --dataser [DATASET_NAME] --model [MODEL_NAME] 
 ```
-Replace `[MODEL_NAME]` with `bert` or `bst` and `[DATASET_PATH]` with the name of the dataset.
+Replace `[MODEL_NAME]` with `bert` or `bst` and `[DATASET_NAME]` with the name of the dataset.
 
 
 ## File Structure
